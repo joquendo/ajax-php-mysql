@@ -1,0 +1,22 @@
+{
+  "name": "admixt-task2",
+  "version": "0.0.0",
+  "authors": [
+    "James Oquendo <james.oquendo@gmail.com>"
+  ],
+  "description": "Ajax request to a PHP script that loads data into an HTML table",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  }
+}

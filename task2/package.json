@@ -1,0 +1,9 @@
+{
+  "name": "admixt-task2",
+  "version": "0.0.0",
+  "description": "Ajax request to a PHP script that loads data into an HTML table",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.10.2"
+  }
+}

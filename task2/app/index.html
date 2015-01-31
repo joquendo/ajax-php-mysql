@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Task 2</title>
+    
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="h01">Task 2</h1>
+        <p>Write a web application that uses jQuery to make an Ajax request to a PHP script that performs a SQLquery that incorporates a left outer join and returns JSON to the jQuery front-end that loads the data into an html table.</p>
+      </header>
+      <section>
+        <p>Click on "Retrieve Data!" to populate the table with a row of authors and their jokes.  Authors that do not have a joke associated with their name will have a null value.</p>
+        <p><button>Retrieve Data!</button></p>
+        <table id="table" class="table table-striped">
+          <tr>
+            <th>name</th>
+            <th>jokeid</th>
+            <th>joketext</th>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
